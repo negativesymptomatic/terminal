@@ -26,17 +26,17 @@ export const gui = async (args: string[]): Promise<string> => {
 };
 
 export const email = async (args: string[]): Promise<string> => {
-  window.open('mailto:hi@nm4tt72.com');
+  window.open('mailto:info@gianlucatuscano.it');
 
-  return 'Opening mailto:hi@m4tt72.com...';
+  return 'Opening mailto:info@gianlucatuscano.it...';
 };
 
 export const vi = async (args: string[]): Promise<string> => {
-  return `why use vi? try 'emacs'.`;
+  return `why use vi? try 'nano'.`;
 };
 
 export const vim = async (args: string[]): Promise<string> => {
-  return `why use vim? try 'emacs'.`;
+  return `why use vim? try 'nano'.`;
 };
 
 export const emacs = async (args?: string[]): Promise<string> => {
@@ -44,32 +44,22 @@ export const emacs = async (args?: string[]): Promise<string> => {
 };
 
 export const sudo = async (args?: string[]): Promise<string> => {
-  window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
+  window.open('https://skriba.it/', '_blank');
 
   return `Permission denied: unable to run the command '${args[0]}' as root.`;
 };
 
-export const repo = async (args?: string[]): Promise<string> => {
-  window.open('https://github.com/m4tt72/terminal', '_blank');
-
-  return 'Opening repository...';
-};
-
 export const banner = (args?: string[]): string => {
   return `
-███╗   ███╗██╗  ██╗████████╗████████╗███████╗██████╗
-████╗ ████║██║  ██║╚══██╔══╝╚══██╔══╝╚════██║╚════██╗
-██╔████╔██║███████║   ██║      ██║       ██╔╝ █████╔╝
-██║╚██╔╝██║╚════██║   ██║      ██║      ██╔╝ ██╔═══╝
-██║ ╚═╝ ██║     ██║   ██║      ██║      ██║  ███████╗
-╚═╝     ╚═╝     ╚═╝   ╚═╝      ╚═╝      ╚═╝  ╚══════╝ v${packageJson.version}
+     
+  ___(_)_ __ | |_ ___  _ __ ___   __ _| |_(_) ___ ___  _ __   ___  __ _  __ _| |_(___   _____  
+ / __| | '_ \| __/ _ \| '_ ` _ \ / _` | __| |/ __/ _ \| '_ \ / _ \/ _` |/ _` | __| \ \ / / _ \ 
+ \__ | | | | | || (_) | | | | | | (_| | |_| | (_| (_) | | | |  __| (_| | (_| | |_| |\ V | (_) |
+ |___|_|_| |_|\__\___/|_| |_| |_|\__,_|\__|_|\___\___/|_| |_|\___|\__, |\__,_|\__|_| \_/ \___/ 
+                                                                  |___/                         v${packageJson.version}
 
 Type 'help' to see list of available commands.
 
---
-Now the project is open-source 🎉 type 'repo' to check out the repository.
---
-For a simplified version, click <a class="text-light-blue dark:text-dark-blue underline" href="/gui">Here</a>.
---
 `;
 };
+
