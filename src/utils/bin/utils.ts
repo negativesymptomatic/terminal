@@ -52,14 +52,8 @@ export const sudo = async (args?: string[]): Promise<string> => {
 export const banner = (args?: string[]): string => {
   return `
      
-  ___(_)_ __ | |_ ___  _ __ ___   __ _| |_(_) ___ ___  _ __   ___  __ _  __ _| |_(___   _____  
- / __| | '_ \| __/ _ \| '_ ` _ \ / _` | __| |/ __/ _ \| '_ \ / _ \/ _` |/ _` | __| \ \ / / _ \ 
- \__ | | | | | || (_) | | | | | | (_| | |_| | (_| (_) | | | |  __| (_| | (_| | |_| |\ V | (_) |
- |___|_|_| |_|\__\___/|_| |_| |_|\__,_|\__|_|\___\___/|_| |_|\___|\__, |\__,_|\__|_| \_/ \___/ 
-                                                                  |___/                         v${packageJson.version}
+sintomaticonegativo                 
 
 Type 'help' to see list of available commands.
-
 `;
 };
-
