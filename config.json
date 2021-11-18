@@ -7,11 +7,11 @@
   },
   "colors": {
     "light": {
-      "background": "#e1e1e1",
-      "foreground": "#3C3836",
+      "background": "#fcfcfc",
+      "foreground": "#1c1c1c",
       "yellow": "#FF00FF",
       "green": "#64dd17",
-      "gray": "#bcbcbc",
+      "gray": "#1c1c1c",
       "blue": "#458588",
       "red": "#ea0029"
     },
