@@ -12,7 +12,7 @@ export const echo = async (args: string[]): Promise<string> => {
 };
 
 export const whoami = async (args: string[]): Promise<string> => {
-  return 'guest';
+  return 'randomuser';
 };
 
 export const date = async (args: string[]): Promise<string> => {
@@ -40,7 +40,11 @@ export const vim = async (args: string[]): Promise<string> => {
 };
 
 export const emacs = async (args?: string[]): Promise<string> => {
-  return `really? emacs? you should be using 'vim'`;
+  return `really? emacs? you should be using 'nano'`;
+};
+
+export const nano = async (args?: string[]): Promise<string> => {
+  return `you cannot use nano, it has too many functions for your needings`;
 };
 
 export const sudo = async (args?: string[]): Promise<string> => {
